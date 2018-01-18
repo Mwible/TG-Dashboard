@@ -38,7 +38,7 @@ gem 'spring',        group: :development
 
 
 group :production do
-gem 'pg'
+gem 'pg', '~> 0.20'
 gem 'rails_12factor'
 end
 
