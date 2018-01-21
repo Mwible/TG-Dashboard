@@ -36,8 +36,6 @@ gem 'sqlite3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-
-
 group :production do
 gem 'pg', '~> 0.20'
 gem 'rails_12factor'
